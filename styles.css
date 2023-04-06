@@ -1,0 +1,242 @@
+    
+    
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+      }
+
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    
+    /* Header styles */
+    
+
+    nav {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    }
+
+    /*.header-container {
+        background-image: url(https://www.bates.edu/wordpress/files/2016/07/pattern1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    */
+
+    .logo {
+    float: left;
+    }
+    
+    .logo img {
+    height: 50px;
+    padding: 10px 0;
+    }
+    
+    .menu {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    }
+    
+    .menu li {
+    display: inline-block;
+    margin-left: 30px;
+    }
+    
+    .menu li:first-child {
+    margin-left: 0;
+    }
+    
+    .menu a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    }
+    
+    .menu a:hover {
+    color: #6c5ce7;
+    }
+    
+    .hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    }
+    
+    .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+    }
+    
+    .button {
+    display: inline-block;
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+    background-color: #4834d4;
+    }
+    
+    /* About styles */
+    .about {
+        padding: 60px 0;
+        }
+        
+        .about h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        }
+        
+        .about p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        }
+        
+    .about-container {
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    .about-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    
+    .about-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    /* Services styles */
+    .services-container {
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    .services-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    
+    .services-container ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    .services-container li {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 20px;
+    }
+    
+    .services-container li i {
+    margin-right: 10px;
+    color: #6c5ce7;
+    }
+    
+    /* Contact styles */
+    .contact-container {
+    padding: 100px 0;
+    text-align: center;
+    }
+    
+    .contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+
+    .contact-container form {
+        max-width: 600px;
+        margin: 0 auto;
+        }
+        
+        .contact-container input,
+        .contact-container textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 16px;
+        }
+        
+        .contact-container input:focus,
+        .contact-container textarea:focus {
+        outline: none;
+        border-color: #6c5ce7;
+        }
+        
+        .contact-container button {
+        display: inline-block;
+        background-color: #6c5ce7;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+        }
+        
+        .contact-container button:hover {
+        background-color: #4834d4;
+        }
+        
+        /* Footer styles */
+        footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 40px 0;
+        margin-top: 100px;
+        }
+        
+        .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        
+        .footer-container p {
+        margin-bottom: 0;
+        }
+        
